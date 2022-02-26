@@ -245,7 +245,13 @@ body {
 .tools-item {
     margin: auto;
     padding: 10px;
-    font-size: 8em;
+    font-size: 5em;
+}
+
+.tool-name{
+    font-size: 20px;
+    text-align: center;
+    color: var(--clr-accent);
 }
 
 /* project container */
@@ -501,3 +507,16 @@ input[type="submit"]{
     text-decoration: underline;
 }
 
+/* individual proejct item style */
+
+.project-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

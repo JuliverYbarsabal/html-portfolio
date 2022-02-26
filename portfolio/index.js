@@ -1,3 +1,5 @@
+
+// contact container sending message to my email
 var form = document.getElementById("my-form");
     
 async function handleSubmit(event) {
@@ -31,3 +33,25 @@ async function handleSubmit(event) {
   });
 }
 form.addEventListener("submit", handleSubmit)
+
+// single page application 
+
+// nav bar
+$("#aboutMe, #tools, #project, #contact").on("click", function() {
+  $("#title-container").show();
+  $("#aboutMe-container").show();
+  $("#tools-container").show();
+  $("#project-container").show();
+  $("#contact-container").show();
+  $("#project1").hide();
+});
+
+// project 1 
+$("#projectbtn1").on("click", function() {
+  $("#project1").show();
+  $("#title-container").hide();
+  $("#aboutMe-container").hide();
+  $("#tools-container").hide();
+  $("#project-container").hide();
+  $("#contact-container").hide();
+});
