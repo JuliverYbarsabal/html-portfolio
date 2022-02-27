@@ -43,12 +43,42 @@ $("#aboutMe, #tools, #project, #contact").on("click", function() {
   $("#tools-container").show();
   $("#project-container").show();
   $("#contact-container").show();
-  $("#project1").hide();
+  $("#project1, #project2, #project3, #project4").hide();
 });
 
 // project 1 
 $("#projectbtn1").on("click", function() {
   $("#project1").show();
+  $("#title-container").hide();
+  $("#aboutMe-container").hide();
+  $("#tools-container").hide();
+  $("#project-container").hide();
+  $("#contact-container").hide();
+});
+
+// project 2
+$("#projectbtn2").on("click", function() {
+  $("#project2").show();
+  $("#title-container").hide();
+  $("#aboutMe-container").hide();
+  $("#tools-container").hide();
+  $("#project-container").hide();
+  $("#contact-container").hide();
+});
+
+// project 3
+$("#projectbtn3").on("click", function() {
+  $("#project3").show();
+  $("#title-container").hide();
+  $("#aboutMe-container").hide();
+  $("#tools-container").hide();
+  $("#project-container").hide();
+  $("#contact-container").hide();
+});
+
+// project 4 
+$("#projectbtn4").on("click", function() {
+  $("#project4").show();
   $("#title-container").hide();
   $("#aboutMe-container").hide();
   $("#tools-container").hide();
