@@ -2,8 +2,12 @@
 personal  online portfolio
 
 Software used: Visual studio code
+
+display my personal and school projects.
  
- section includes:
+language used: HTML, CSS, and JAVASCRIPT
+
+html-portfolio section includes:
    - navigation bar
    - about me
    - tools i use
